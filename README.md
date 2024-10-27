@@ -29,6 +29,7 @@ int main() {
     Stack stack = create_stack();
     push(&stack, 10);
     int value = pop(&stack);
+    free(&stack);
     return 0;
 }
 ```
